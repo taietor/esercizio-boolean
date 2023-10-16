@@ -1,0 +1,61 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: green;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: darkgreen;
+}
+
+#container {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.vehicle {
+  display: flex;
+  justify-content: column;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.info {
+  text-align: left;
+  padding: 10px;
+}
+
+.status {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
